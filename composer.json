@@ -1,0 +1,29 @@
+{
+    "name": "brightweb/countries",
+    "version": "1.0.0",
+    "description": "Laravel package for countries, states, and cities",
+    "keywords": ["geography", "countries", "states", "cities", "laravel","brightweb","chika","nwazuo"],
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Brightweb\\Countries\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel":{
+            "providers": [
+                "Brightweb\\Countries\\BrightcountryProvider"
+            ]
+        }
+    },
+    "authors": [
+        {
+            "name": "Chika Nwazuo"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": "^8.0"
+    }
+}
